@@ -9,7 +9,7 @@ Recomiendo utilizar un editor de texto (en mi caso usé VisualStudioCode, pero p
 Componentes:
 
 NavBar = es la barra de navegación donde podés acceder a los productos y filtros. Tambien donde se visualiza el CartWidget.
-ItemListCointainer - ItemList = es la lista de todos los productos y lo primero que deberá visualizarse al entrar a la app.
+ItemListCointainer e ItemList = es la lista de todos los productos y lo primero que deberá visualizarse al entrar a la app.
 Item = es la card que contiene al producto que se visualiza en el ItemListContainer.
 ItemDetail = el la información del producto que se visualiza al presionar el button 'ver detalles'.
 ItemDetailContainer = Contiene al ItemDetail.
