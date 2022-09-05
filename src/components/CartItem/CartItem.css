@@ -1,0 +1,14 @@
+.CardItem{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    font-size: 28px;
+    background-color:rgba(89, 27, 57, 0.535);
+}
+
+.quitarProducto{
+    height: 40px;
+    width: 40px;
+    border-radius: 30px;
+}

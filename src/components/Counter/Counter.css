@@ -1,0 +1,17 @@
+.counter2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton{
+    height: 20px;
+}
+
+.number{
+    padding-inline: 20px;
+}
+
+.agregar{
+    height: 30px;
+}

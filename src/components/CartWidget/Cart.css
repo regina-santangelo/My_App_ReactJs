@@ -1,0 +1,30 @@
+.cartDetails{
+    display: flex;
+    height:23px;
+}
+
+p{
+    text-decoration:none;
+    color: rgb(0, 0, 0);
+}
+
+.TotalPrecio{
+    font-size: 28px;
+}
+
+.Button{
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+}
+
+.noProducts{
+    margin-top: -130px;
+    color: rgb(0, 0, 0);
+}
+
+.TuCarrito{
+    margin-top: -190px;
+    font-size: 34px;
+    color: rgb(0, 0, 0);
+}

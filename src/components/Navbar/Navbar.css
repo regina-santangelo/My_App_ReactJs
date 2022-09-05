@@ -1,0 +1,79 @@
+nav{
+    display: flex;
+    background-color:rgba(89, 27, 57, 0.535);
+    width: 100%;
+    position: fixed;
+    top: 0;
+
+}
+
+.navbar{
+    padding-top: 30px;
+    text-align: center;
+    width: 20%;
+    border-style: none none solid;
+    border-color: rgba(89, 27, 57, 0.034);
+}
+
+.navbar:hover{
+    border-color: rgb(127, 38, 99) ;
+}
+
+h2{
+    font-size: 35px;
+}
+
+.lista{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 25px;
+    height: 70px;
+    width: 35%;
+    padding-top: 30px;
+}
+
+.Lista{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 25px;
+    height: 70px;
+    width: 35%;
+    padding-top: 30px;
+    border-style: none none solid;
+    border-color: rgba(89, 27, 57, 0.034);
+}
+
+.Lista:hover{
+    border-color: rgb(127, 38, 99) ;
+}
+
+.sections{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+}
+
+.ecommerce{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+/*--- Animaciones ---*/
+
+img{
+    width: 60px;
+    height: 60px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.Cart{
+    display: flex;
+}
+
+.Cart p{
+    font-size: 19px;
+    margin-top: 50px;
+}

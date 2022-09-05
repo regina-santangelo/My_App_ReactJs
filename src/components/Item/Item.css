@@ -1,0 +1,23 @@
+.listaProductos{
+    list-style: none;
+    height: 580px;
+    width: 620px;
+    margin: 50px;
+    background-color: rgba(89, 27, 57, 0.535) !important;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.listaProductos img{
+    height: auto;
+    width: 500px;
+}
+
+.botonProducto{
+    height: 50px;
+    width: 200px;
+    background-color: rgb(48, 48, 48);
+    border-radius: 20px;
+    color: aliceblue;
+    
+}
