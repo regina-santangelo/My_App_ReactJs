@@ -4,6 +4,7 @@ import CartItem from '../CartItem/CartItem'
 import { addDoc, collection, getDocs, Timestamp, doc, query, where, documentId, writeBatch, updateDoc } from 'firebase/firestore'
 import { db } from '../../services/firebase/index'
 import './Checkout.css'
+import Swal from 'sweetalert2'
 
 const Checkout = () => {
 
@@ -49,6 +50,10 @@ const Checkout = () => {
 
                 if(stockActualizado >= cantidadProductos){
                     batch.update(doc.ref, {stock: stockActualizado - cantidadProductos})
+                    Swal.fire(
+                        'Tu órden se generó correctamente',
+                        'Nos pondremos en contacto a la brevedad.'
+                      )
                 }else{
                     sinStock.push({id: doc.id, ...docData})
                 }
@@ -73,7 +78,7 @@ const Checkout = () => {
         } finally {
             console.log('Fin de la ejecución')
         }
-    }
+    } 
 
     return (
         <div className='formulario'>

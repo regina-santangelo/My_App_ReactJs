@@ -3,6 +3,7 @@ import Counter from '../Counter/Counter'
 import { useState, useContext } from 'react'
 import { Link } from 'react-router-dom'
 import CartContext from '../../context/CartContext'
+import Swal from 'sweetalert2'
 
 const ItemDetail = ({ id, name, category, img, price, stock, description}) => {
 
@@ -13,7 +14,13 @@ const ItemDetail = ({ id, name, category, img, price, stock, description}) => {
     const quantityCart = getProductQuantity(id)
     
     const handleOnAdd = (quantity) => {
-        alert(`Se agregaron ${quantity} de ${name}`)
+        Swal.fire({
+            position: 'top-end',
+            icon: 'success',
+            title: `Se agregaron ${quantity} de ${name}`,
+            showConfirmButton: false,
+            timer: 1500
+          })
         setQuantity(quantity)
         addItem({id, name, price, quantity})
     }

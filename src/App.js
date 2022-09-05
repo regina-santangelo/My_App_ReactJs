@@ -9,7 +9,6 @@ import { UserContextProvider} from './context/UserContext'
 import Cart from './components/CartWidget/Cart';
 import Checkout from './components/Checkout/Checkout';
 
-
 function App() {
   // const handleOnAdd = (quantity)=> {
   //   console.log('La cantidad de productos seleccionados es', quantity)

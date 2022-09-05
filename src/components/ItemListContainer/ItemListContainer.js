@@ -30,27 +30,7 @@ const ItemListContainer = ({})=>{
         }).finally(() => {
             setLoading(false)
         })
-
-        // const categoria = categoryId ? getProductsByCategory : getProducts
-        
-        // categoria(categoryId).then(response => {
-        //     setProducts(response)
-        // }).catch(error => {
-        //     console.log(error)
-        // }).finally(() => {
-        //     setLoading(false)
-        // })
     }, [categoryId])
-
-    // useEffect(()=>{
-    //     getProducts().then(response =>{
-    //         setProducts(response)
-    //     }).catch(error =>{
-    //         console.log('error')
-    //     }).finally(()=>{
-    //         setLoading(false)
-    //     })
-    // }, [])
 
     if(loading){
         return <h2>Espera mientras cargamos los productos...</h2>
