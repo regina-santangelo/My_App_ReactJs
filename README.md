@@ -1,4 +1,7 @@
-# My_App_ReactJs
+# My_App_ReactJs!
+
+![React-App-Opera-2022-09-05-23-35-09](https://user-images.githubusercontent.com/102269047/188542664-ef5f2837-a410-4aff-aa9c-c46821299369.gif)
+
 Este proyecto consiste en un e-commerce creado con React Js. Es mi primer proyecto realizado con React y tambien el proyecto del último curso de Front-End de CoderHouse. 
 Consiste en una simulación de negocio de instrumentos musicales. El mismo cuenta con un pequeño catálogo, un carrito de compras, los detalles de los ítems, filtro, y una base da datos en Firebase donde se genera y guarda la orden de compra que haya generado el usuario al introducir sus datos, además de los datos de producto.
 
